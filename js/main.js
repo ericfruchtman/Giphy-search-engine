@@ -6,7 +6,7 @@ $(function (){
         let userInput = $('#search').val();
         let urlSent = `https://api.giphy.com/v1/gifs/search?api_key=${APIKEY}&q=${userInput}&limit=15`;
         if (userInput === '') {
-            $('.error').text('You forgot to type something in the box');
+            alert('Whoops! Try again');
             return
         }
         $.get( urlSent )
