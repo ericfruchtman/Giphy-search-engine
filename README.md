@@ -1,4 +1,4 @@
-# Giphy-search-engine
+# Giphy search engine
 
 Eric Fruchtman
 
